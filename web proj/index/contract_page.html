@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cats, dogs, animal welfare, pet adoption, fun facts, animal rights">
+    <meta name="description" content="Join WeBytes in celebrating the charm of cats and dogs. Discover fun facts, learn about animal r0ights, and explore adoption opportunities.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../design/donation_pagedesign.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/Dog_Cat_Logo.png">
+    <title>Contract Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="number"],
+        textarea,
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        textarea {
+            resize: vertical;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Contract Form</h2>
+
+    <form action="generate_contract.php" method="post">
+        <label for="client_name">Client Name:</label><br>
+        <input type="text" id="client_name" name="client_name" required><br><br>
+
+        <label for="service_description">Service Description:</label><br>
+        <textarea id="service_description" name="service_description" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="Purchased_Date">Purchased Date:</label><br>
+        <input type="date" id="Purchased_Date" name="Purchased_Date" required><br><br>
+
+        <label for="Address">Address:</label><br>
+        <input type="text" id="Address" name="Address" required><br><br>
+
+        <label for="total_amount">Total Amount:</label><br>
+        <input type="number" id="total_amount" name="total_amount" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <footer>
+
+        </section>
+    </footer>
+
+</body>
+
+</html>

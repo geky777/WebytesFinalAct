@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+header {
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background-color: #463535;
+    text-align: center;
+    color: #ffffff;
+    width: 40%;
+}
+
+nav {
+    margin: auto;
+    padding: 10px;
+    background-color: #897B7B;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    /* Two columns with equal width */
+    gap: 20px;
+    /* Spacing between the columns */
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    /* Arranges the children in a row */
+    /* Distributes space between elements */
+    padding: 10px;
+}
+
+.row1 div {
+    padding: 10px;
+    background-color: #f5f5f5;
+    /* Light background color for the divs */
+    border: 1px solid #ddd;
+    /* Border around each div */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.row ul {
+    padding: 0;
+    list-style-type: disc;
+    /* Bullet points for unordered list */
+}
+
+.row h3 {
+    text-align: center;
+    /* Centers the heading */
+    font-size: 18px;
+    /* Font size for the heading */
+}
+
+.row li {
+    margin: 5px 0;
+    /* Spacing between list items */
+}
+
+.row {
+    display: flex;
+    /* Enables flex layout */
+    flex-direction: row;
+    /* Children are arranged from left to right */
+    justify-content: space-between;
+    /* Distributes space between elements */
+    align-items: center;
+    /* Aligns children vertically */
+    padding: 10px;
+    /* Padding around the whole row */
+}
+
+.row div {
+    text-align: center;
+    /* Centers content within each div */
+    margin: 0 1px;
+    /* Adds 10px margin on left and right */
+}
+
+.row img {
+    max-width: 1400px;
+    /* Restricts image width */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+.row p {
+    margin-top: 10px;
+    /* Adds space between image and paragraph */
+    font-size: 14px;
+    /* Sets font size for readability */
+    color: #333;
+    /* Text color for better visibility */
+}
+
+#contact {
+    background-color: #D7DBDD;
+}

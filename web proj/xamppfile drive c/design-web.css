@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+header {
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background-color: #463535;
+    text-align: center;
+    color: #ffffff;
+    width: 40%;
+}
+
+nav {
+    margin: auto;
+    padding: 10px;
+    background-color: #897B7B;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ffaboutcatsanddogs {
+    width: 30%;
+    margin: 10px;
+    height: 10%;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5%;
+    background-color: #D9D9D9;
+}
+
+.Rights {
+    width: 64%;
+    margin: 10px;
+    height: 10%;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5%;
+    background-color: #D9D9D9;
+}
+
+.adapts {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background-color: #452424;
+    width: 12%;
+    height: 1%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#contact {
+    background-color: #D7DBDD;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #463535;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #463535;
+}
+
+#gcash-section {
+    display: flex;
+    align-items: center;
+}
+
+#gcash-img {
+    width: 300px;
+    margin-right: 20px;
+}
